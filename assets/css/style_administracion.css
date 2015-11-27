@@ -1,0 +1,33 @@
+.general{
+	margin: 1.7em auto;
+}
+@media (max-width: 767px){
+	.container{
+		width: 100%;
+	}
+}
+@media (min-width: 550px) and (max-width: 767px) {
+	.col-xs-12{
+		width: 49%;
+	}
+}
+.well{
+	text-align: center;
+}
+.well i{
+	font-size: 1.7em;
+}
+.well a{
+	color: #777;
+	display: block;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+.well a:hover{
+	color: rgb(22,135,165)
+}
+h2{
+	color: #666;
+	margin-top: 0;
+	margin-bottom: .9em;
+}

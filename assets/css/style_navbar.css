@@ -1,0 +1,90 @@
+.navbar.navbar, .navbar-default.navbar{
+	background-color: rgb(156,83,159);
+}
+.navbar-nav li a{
+  color: #333;
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+      -ms-transition: all .2s linear;
+       -o-transition: all .2s linear;
+          transition: all .2s linear;
+}
+.navbar.navbar .dropdown-menu li>a:hover,
+.navbar-default.navbar .dropdown-menu li>a:hover,
+.navbar.navbar .dropdown-menu li>a:focus,
+.navbar-default.navbar .dropdown-menu li>a:focus{
+  color: #333;
+}
+@media(min-width: 767px){
+  .navbar-nav .dropdown{
+    margin:-8px 0;
+  }  
+}
+
+.navbar{
+  margin: 20px 20px 0 20px;
+  border-radius: 5px;
+}
+.navbar-header{
+	text-align: center;
+}
+.navbar-brand{
+	color:#fff;
+}
+@media (min-width: 316px) and (max-width:360px) {
+	.navbar-brand{
+		font-size: 1em;
+		margin-right: -5px !important;
+	}
+}
+@media (max-width: 315px) {
+  .navbar-brand{
+    font-size: 14px;
+    margin-right: -5px;
+  }
+}
+@media (max-width: 289px) {
+  .navbar-brand{
+    font-size: 11px;
+    margin-right: -5px;
+  }
+}
+@media (max-width: 767px) {
+  .navbar{
+    margin:10px 15px;
+  }
+}
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+  color:#fff;
+}
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+.navbar-toggle .icon-bar {
+  width: 22px;
+  transition: all 0.4s;
+}
+
+.navbar-toggle.activado .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggle.activado .middle-bar {
+  opacity: 0;
+}
+.navbar-toggle.activado .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggle .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggle .middle-bar {
+  opacity: 1;
+}
+.navbar-toggle .bottom-bar {
+  transform: rotate(0);
+}
